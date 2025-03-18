@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloria Wekura | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 100px 20px;
+        }
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: left;
+        }
+        .about-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .project a {
+            color: yellow;
+            font-weight: bold;
+        }
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 24px;
+        }
+        .contact-icons a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Gloria Wekura</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="img/20240110160451_IMG_1228.JPG.jpg" alt="Gloria Wekura" style="width: 400px; height: 350px; border-radius: 30%; margin: 20px;">
+            <p>Hi! I'm Gloria Wekura, a dedicated front-end and back-end developer with expertise in JavaScript, HTML, CSS, Tailwind, Python, Bootstrap, Next.js, Flask, and Figma. I have a strong passion for creating engaging and efficient digital experiences through well-structured and innovative web solutions.</p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>A dynamic weather application that allows users to search for any city and view real-time weather updates. The app displays the weather icon, temperature, searched location, humidity, and wind speed. It is deployed on Vercel for easy access.</p>
+            <a href="https://weather-app-khaki-one-31.vercel.app" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Task Manager</h3>
+            <p>A simple task manager app where users can add tasks, set priorities, edit, and delete tasks. Built using JavaScript, CSS, and Bootstrap.</p>
+            <a href="https://glo92.github.io/phase-1-project/
+            " target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Bank of Flatiron</h3>
+            <p>It is a bank project that keeps track of the user's recent transactions</p>
+            <a href="https://code-challenge-ph2.vercel.app/" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: wekuraglorian07@gmail.com</p>
+        <div class="contact-icons">
+            <a href="https://github.com/Glo92" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/+254795075204" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/lo.na_w/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/gloria-wekura-100838265/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
